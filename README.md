@@ -14,22 +14,22 @@ Este projeto foi desenvolvido com o objetivo de consolidar conceitos de:
 ## 📁 Estrutura Real do Projeto
 
 EXCPPRH/
-│
 ├── data/
-│ ├── dados_rh.csv # Base de dados principal dos colaboradores
-│ └── relatorio.txt # Ficheiros de exportação de relatórios
+│   ├── dados_rh.csv        # Base de dados principal dos colaboradores
+│   └── relatorio.txt       # Ficheiros de exportação de relatórios
 │
 ├── src/
-│ ├── main.cpp # Menu principal e controlo da aplicação
-│ ├── colaborador.h/.cpp # Estrutura do colaborador e lógica associada
-│ ├── calendar.h/.cpp # Cálculo de datas e geração do calendário
-│ ├── storage.h/.cpp # Leitura e escrita de ficheiros CSV
-│ ├── reports.h/.cpp # Relatórios e estatísticas
-│ ├── exporter.h/.cpp # Exportação de ficheiros TXT
-│ └── utils.h/.cpp # Funções auxiliares (validações, apoio)
+│   ├── main.cpp            # Menu principal e controlo da aplicação
+│   ├── colaborador.h/.cpp  # Estrutura do colaborador e lógica associada
+│   ├── calendar.h/.cpp     # Cálculo de datas e geração do calendário
+│   ├── storage.h/.cpp      # Leitura e escrita de ficheiros CSV
+│   ├── reports.h/.cpp      # Relatórios e estatísticas
+│   ├── exporter.h/.cpp     # Exportação de ficheiros TXT
+│   └── utils.h/.cpp        # Funções auxiliares (validações, apoio)
 │
-├── README.md # Documentação do projeto
-└── rh_app.exe # Executável da aplicação
+├── README.md               # Documentação do projeto
+└── rh_app.exe              # Executável da aplicação
+
 
 
 
