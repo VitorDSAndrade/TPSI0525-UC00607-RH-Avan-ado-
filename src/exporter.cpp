@@ -71,7 +71,7 @@ bool exportRelatorioTXT(const vector<Colaborador>& lista, int ano, int mes, cons
         int totalX = 0;
 
         // Contar marcações dentro do mês
-        for (const auto& m : c.lista) {   // 👈 CORRIGIDO AQUI
+        for (const auto& m : c.lista) {   
             if (m.ano == ano && m.mes == mes) {
                 if (m.tipo == 'F') totalF++;
                 if (m.tipo == 'X') totalX++;

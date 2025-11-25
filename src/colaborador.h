@@ -22,12 +22,12 @@ struct Nota {
 };
 
 struct Colaborador {
-    int id{0};                      // NOVO: ID interno
-    std::string nome;               // Nome desencriptado
-    std::string departamento;       // NOVO
+    int id{0};                      
+    std::string nome;               
+    std::string departamento;       
     std::vector<Marcacao> lista;    // Marcações
-    std::vector<Formacao> formacoes;// NOVO
-    std::vector<Nota> notas;        // NOVO
+    std::vector<Formacao> formacoes;
+    std::vector<Nota> notas;        
 };
 
 // Marcações
